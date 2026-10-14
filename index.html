@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#1a0c09">
+  <meta name="description" content="Guia do OKTOBOIFEST 2026 — Rancho Sunset: cardápio, chopes, mapa e parceiros.">
+  <title>OKTOBOIFEST 2026 — Rancho Sunset</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=Rye&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar" id="inicio">
+    <a class="brand" href="#inicio" aria-label="Voltar ao início"><img src="assets/logo.webp" alt="OKTOBOIFEST 2026 Rancho Sunset"></a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav id="menu" aria-label="Navegação principal">
+      <a href="#experiencia">A experiência</a><a href="#programacao">Bandas</a><a href="#cardapio">Cardápio</a><a href="#chopes">Chopes</a><a href="#mapa">Mapa</a><a href="#parceiros">Parceiros</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-shade"></div>
+      <div class="hero-copy reveal">
+        <span class="eyebrow">12ª edição • Jaú/SP</span>
+        <img class="hero-logo" src="assets/logo.webp" alt="OKTOBOIFEST 2026 Rancho Sunset">
+        <p class="hero-date">17 OUT 2026 <i></i> SÁBADO <i></i> 18H</p>
+        <h1>O rancho abre em</h1>
+        <div class="countdown" aria-label="Contagem regressiva"><strong data-days>00</strong><span>dias</span><strong data-hours>00</strong><span>horas</span><strong data-minutes>00</strong><span>min</span></div>
+        <div class="hero-actions"><a class="btn primary" href="#cardapio">Explorar a festa</a><a class="btn ghost" href="#mapa">Ver o mapa</a></div>
+      </div>
+      <a class="scroll-cue" href="#experiencia">DESÇA PARA ENTRAR NO RANCHO ↓</a>
+    </section>
+
+    <section class="quick-search" aria-label="Busca no guia">
+      <div><span>GUIA DA FESTA</span><h2>O que você procura?</h2></div>
+      <label><span class="sr-only">Buscar</span><input id="site-search" type="search" placeholder="Ex.: picanha, banheiro, chopp..."><b>⌕</b></label>
+      <div id="search-results" class="search-results" hidden></div>
+    </section>
+
+    <section class="experience section" id="experiencia">
+      <div class="section-head reveal"><span class="eyebrow">UMA NOITE. MUITAS EXPERIÊNCIAS.</span><h2>O sabor do fogo.<br><em>O som do encontro.</em></h2></div>
+      <div class="experience-grid">
+        <article class="feature-photo big reveal"><img src="assets/amigos.webp" alt="Amigos reunidos em uma edição anterior"><div><b>PERTENCIMENTO</b><h3>Uma festa para viver junto</h3><p>Vista a camiseta oficial, reúna os amigos e faça parte da 12ª edição.</p></div></article>
+        <article class="feature-card copper reveal"><span>05</span><h3>Estações gourmet</h3><p>Cortes especiais preparados ao vivo, do Angus ao copa-lombo.</p><a href="#cardapio">Ver cardápio →</a></article>
+        <article class="feature-card dark reveal"><span>10</span><h3>Tipos de chopp</h3><p>Rótulos premium, artesanais e uma novidade sem álcool.</p><a href="#chopes">Conhecer torneiras →</a></article>
+        <article class="feature-photo reveal"><img src="assets/palco.webp" alt="Banda tocando no palco"><div><b>2 PALCOS • 3 BANDAS</b><h3>Do sunset ao pagode</h3><p>Sertanejo, pop rock e pagode em uma jornada musical completa.</p></div></article>
+      </div>
+    </section>
+
+    <section class="lineup section" id="programacao">
+      <div class="lineup-poster reveal"><img src="assets/bandas-2026.webp" alt="Bandas confirmadas do OKTOBOIFEST 2026: Untold, Renato e Rodrigo e Barulhinho Bom"></div>
+      <div class="lineup-copy reveal"><span class="eyebrow">BANDAS CONFIRMADAS</span><h2>Do primeiro acorde<br><em>ao último brinde.</em></h2><p>Dois palcos e três atmosferas para atravessar a noite: sertanejo, pop rock e pagode.</p>
+        <div class="artist-list"><article><small>POP ROCK</small><b>UNTOLD</b></article><article><small>SERTANEJO</small><b>RENATO &amp; RODRIGO</b></article><article><small>PAGODE</small><b>BARULHINHO BOM</b></article></div>
+        <a class="btn primary" href="#mapa">Localizar os palcos</a>
+      </div>
+    </section>
+
+    <section class="menu-section section" id="cardapio">
+      <div class="section-head light reveal"><span class="eyebrow">CARDÁPIO 2026</span><h2>Cinco estações.<br><em>Fogo sem pausa.</em></h2><p>Selecione uma estação para consultar o prato e reservar o espaço da fotografia oficial.</p></div>
+      <div class="menu-layout">
+        <div class="station-nav" role="tablist" aria-label="Estações do cardápio">
+          <button class="station-tab active" data-station="0"><small>APARADOR</small><b>Principal</b></button>
+          <button class="station-tab" data-station="1"><small>ESTAÇÃO 01</small><b>Picanha</b></button>
+          <button class="station-tab" data-station="2"><small>ESTAÇÃO 02</small><b>Short Rib</b></button>
+          <button class="station-tab" data-station="3"><small>ESTAÇÃO 03</small><b>Ancho</b></button>
+          <button class="station-tab" data-station="4"><small>ESTAÇÃO 04</small><b>Frango</b></button>
+          <button class="station-tab" data-station="5"><small>ESTAÇÃO 05</small><b>Copa-lombo</b></button>
+        </div>
+        <article class="dish-card reveal">
+          <div class="dish-image"><img id="dish-img" src="assets/churrasco.webp" alt="Estação gastronômica"><span>ESPAÇO PARA FOTO OFICIAL</span></div>
+          <div class="dish-copy"><small id="dish-kicker">APARADOR PRINCIPAL</small><h3 id="dish-title">Acompanhamentos</h3><p id="dish-desc">Salada, pão, vinagrete e farofa.</p><button class="map-link" data-target="aparador">Localizar no mapa →</button></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="beer-section section" id="chopes">
+      <div class="beer-art"><img src="assets/copo.webp" alt="Copo oficial OKTOBOIFEST 2026"></div>
+      <div class="beer-copy reveal"><span class="eyebrow">ROTA DO CHOPP</span><h2>Dez torneiras.<br><em>Seu brinde.</em></h2><p>Use os filtros para encontrar estilos premium, artesanais e sem álcool. Os nomes das marcas podem ser incluídos assim que confirmados.</p>
+        <div class="filters" aria-label="Filtros de chopp"><button class="active" data-beer="all">Todos</button><button data-beer="premium">Premium</button><button data-beer="artesanal">Artesanais</button><button data-beer="sem-alcool">Sem álcool</button></div>
+        <div class="beer-grid" id="beer-grid"></div>
+      </div>
+    </section>
+
+    <section class="map-section section" id="mapa">
+      <div class="section-head reveal"><span class="eyebrow">ONDE ESTÁ O QUÊ?</span><h2>Mapa oficial da festa</h2><p>Localize sua mesa pelo número e use os filtros para encontrar palcos, chopp, banheiros, alimentação, expositores e pontos de apoio.</p></div>
+      <div class="map-shell">
+        <div class="map-controls" aria-label="Categorias do mapa"><button class="active" data-map="all">Tudo</button><button data-map="palco">Palcos</button><button data-map="chopp">Chopp</button><button data-map="alimentacao">Alimentação</button><button data-map="banheiro">Banheiros</button><button data-map="expositor">Expositores</button><button data-map="apoio">Apoio</button></div>
+        <div class="map-stage">
+        <div class="event-map" aria-label="Mapa oficial do OKTOBOIFEST 2026">
+          <img src="assets/mapa-2026.webp" alt="Planta oficial com mesas numeradas do OKTOBOIFEST 2026">
+          <button class="pin palco" style="left:26.5%;top:5.5%" aria-label="Palco 1"><i>♫</i><span>Palco 1</span></button>
+          <button class="pin palco" style="left:76.5%;top:57.5%" aria-label="Palco 2"><i>♫</i><span>Palco 2</span></button>
+          <button class="pin chopp" style="left:53.6%;top:13%" aria-label="Espaço gourmet de chopp 1"><i>♨</i><span>Chopp</span></button>
+          <button class="pin chopp" style="left:61.8%;top:13%" aria-label="Espaço gourmet de chopp 2"><i>♨</i><span>Chopp</span></button>
+          <button class="pin chopp" style="left:44%;top:71%" aria-label="Chopeira"><i>♨</i><span>Chopeira</span></button>
+          <button class="pin chopp" style="left:59%;top:79%" aria-label="Carrinho de chopp"><i>♨</i><span>Carrinho</span></button>
+          <button class="pin alimentacao" style="left:16%;top:71%" aria-label="Cozinha e preparação"><i>♜</i><span>Cozinha</span></button>
+          <button class="pin alimentacao" style="left:32%;top:75%" aria-label="Aparador principal"><i>♜</i><span>Aparador</span></button>
+          <button class="pin banheiro" style="left:7.5%;top:55%" aria-label="Banheiro principal"><i>WC</i><span>Banheiro</span></button>
+          <button class="pin banheiro" style="left:48%;top:5%" aria-label="Banheiro próximo ao bar"><i>WC</i><span>Banheiro</span></button>
+          <button class="pin expositor" style="left:79%;top:36%" aria-label="Área de expositores"><i>★</i><span>Expositores</span></button>
+          <button class="pin expositor" style="left:79%;top:80%" aria-label="Área de expositores e veículos"><i>★</i><span>Expositores</span></button>
+          <button class="pin apoio" style="left:33%;top:86%" aria-label="Painel instagramável"><i>◎</i><span>Painel Instagramável</span></button>
+          <button class="pin apoio" style="left:51%;top:96%" aria-label="Entrada principal"><i>↓</i><span>Entrada</span></button>
+        </div>
+        </div>
+        <p class="map-note">ARRASTE LATERALMENTE NO CELULAR PARA VER TODO O MAPA • MESAS 1 A 139 EM VERDE-OLIVA.</p>
+      </div>
+    </section>
+
+    <section class="partners section" id="parceiros">
+      <div class="section-head light reveal"><span class="eyebrow">QUEM FAZ O RANCHO ACONTECER</span><h2>Parceiros da 12ª edição</h2><p>Áreas preparadas para logos quadradas, organizadas pela categoria comercial.</p></div>
+      <div id="partner-groups"></div>
+    </section>
+
+    <section class="final-cta">
+      <img src="assets/festa-geral.webp" alt="Vista geral da festa">
+      <div><span class="eyebrow">17 DE OUTUBRO • 18H</span><h2>Você não compra apenas o convite.<br><em>Você veste a 12ª edição.</em></h2><a class="btn primary" href="#inicio">Voltar ao topo</a></div>
+    </section>
+  </main>
+  <footer><img src="assets/logo.webp" alt="OKTOBOIFEST"><p>OKTOBOIFEST 2026 — RANCHO SUNSET</p><p>Uma realização beneficente.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
